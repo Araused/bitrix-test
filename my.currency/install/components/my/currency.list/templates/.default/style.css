@@ -1,0 +1,10 @@
+table.table-currency {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-currency td,
+.table-currency th {
+    border: 1px solid #ccc;
+}

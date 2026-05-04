@@ -1,0 +1,37 @@
+.currency-filter {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fdfdfd;
+    border: 1px solid #ccc;
+}
+
+.currency-filter-reset,
+.currency-filter-submit {
+    display: inline-block;
+    padding: 1px 12px;
+    background: #f5f5f5;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    color: #333 !important;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 22px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.currency-filter-reset {
+    margin-left: 5px;
+    padding: 3px 12px;
+}
+
+.currency-filter-reset:hover {
+    background: #e0e0e0;
+    border-color: #adadad;
+    color: #000;
+}
+
+.currency-filter input[type="submit"] {
+    cursor: pointer;
+    padding: 3px 15px;
+}
