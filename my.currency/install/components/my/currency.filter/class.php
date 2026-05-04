@@ -9,7 +9,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 
 class CurrencyFilterComponent extends \CBitrixComponent
 {
-    public function executeComponent()
+    public function executeComponent(): void
     {
         $filterName = $this->arParams["FILTER_NAME"] ?: 'arrFilter';
         $request = Application::getInstance()->getContext()->getRequest();
